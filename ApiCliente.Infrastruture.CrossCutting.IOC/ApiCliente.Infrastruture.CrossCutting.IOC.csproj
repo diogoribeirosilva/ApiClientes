@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiCliente.Application.DTO\ApiCliente.Application.DTO.csproj" />
+    <ProjectReference Include="..\ApiCliente.Application\ApiCliente.Application.csproj" />
+    <ProjectReference Include="..\ApiCliente.Domain.Services\ApiCliente.Domain.Services.csproj" />
+    <ProjectReference Include="..\ApiCliente.Domain\ApiCliente.Domain.csproj" />
+    <ProjectReference Include="..\ApiCliente.Infrastructure.Repository\ApiCliente.Infrastruture.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

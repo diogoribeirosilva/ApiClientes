@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiCliente.Application.DTO\ApiCliente.Application.DTO.csproj" />
+    <ProjectReference Include="..\ApiCliente.Domain\ApiCliente.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
